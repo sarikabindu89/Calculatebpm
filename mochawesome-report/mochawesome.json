@@ -1,0 +1,103 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-02-27T00:25:22.823Z",
+    "end": "2024-02-27T00:25:23.093Z",
+    "duration": 270,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "972f20d0-fb97-41bf-8299-7dc66a7f24cb",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Mainfile_BPM.cy.js",
+      "file": "cypress\\e2e\\Mainfile_BPM.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8b770016-89e0-4cfc-b1c0-70a8f5b52fe0",
+          "title": "Write the output.json file",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fetch the data from input json file and write the output by calculating all the bpm values group by date",
+              "fullTitle": "Write the output.json file Fetch the data from input json file and write the output by calculating all the bpm values group by date",
+              "timedOut": null,
+              "duration": 188,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const heartrate = new _Heartrate_Measurement.Heartrate_Measurement();\nheartrate.fetchheartratedata();",
+              "err": {},
+              "uuid": "fb0ee994-476b-4dbb-8136-f6ae07076839",
+              "parentUUID": "8b770016-89e0-4cfc-b1c0-70a8f5b52fe0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fb0ee994-476b-4dbb-8136-f6ae07076839"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 188,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "mochaFile": "results/my-test-output.xml",
+        "toConsole": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
